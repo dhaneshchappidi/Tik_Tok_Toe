@@ -124,10 +124,10 @@ class game : AppCompatActivity() {
 
 
         if (winer == 1) {
-            Toast.makeText(this, "PLAYER 1 win the game", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "PLAYER 1 WIN", Toast.LENGTH_SHORT).show()
             restartGame()
         } else if (winer == 2) {
-            Toast.makeText(this, "PLAYER 2 win the game", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "PLAYER 2 WIN", Toast.LENGTH_LONG).show()
             restartGame()
         }
     }
@@ -136,7 +136,7 @@ class game : AppCompatActivity() {
         player1.clear()
         player2.clear()
         for(cellid in 1..9){
-            var buselected:Button=when(cellid){
+            val buselected:Button=when(cellid){
                 1-> bu1
                 2-> bu2
                 3-> bu3
