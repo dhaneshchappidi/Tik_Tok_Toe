@@ -124,10 +124,10 @@ class game : AppCompatActivity() {
 
 
         if (winer == 1) {
-            Toast.makeText(this, "Player 1 win the game", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "PLAYER 1 win the game", Toast.LENGTH_LONG).show()
             restartGame()
         } else if (winer == 2) {
-            Toast.makeText(this, "Player 2 win the game", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "PLAYER 2 win the game", Toast.LENGTH_LONG).show()
             restartGame()
         }
     }
